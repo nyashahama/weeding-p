@@ -137,102 +137,102 @@ const Home = () => {
       <div className="col-md-12">
         
 
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-<table class="w-full text-sm text-left rtl:text-right text-gray-500">
-    <thead class="text-xs text-gray-700 uppercase">
-        <tr>
-            <th scope="col" class="px-6 py-3">Product name</th>
-            <th scope="col" class="px-6 py-3">Color</th>
-            <th scope="col" class="px-6 py-3">Category</th>
-            <th scope="col" class="px-6 py-3">Price</th>
-            <th scope="col" class="px-6 py-3">Action</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Apple MacBook Pro 17"
-            </th>
-            <td class="px-6 py-4">Silver</td>
-            <td class="px-6 py-4">Laptop</td>
-            <td class="px-6 py-4">R2999</td>
-            <td class="px-6 py-4 flex space-x-2">
-                <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
-                    <i class="fas fa-edit mr-2 fa-xs"></i>Edit
-                </a>
-                <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
-                    <i class="fas fa-trash-alt fa-xs mr-2"></i>Delete
-                </a>
-            </td>
-        </tr>
-        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Microsoft Surface Pro
-            </th>
-            <td class="px-6 py-4">White</td>
-            <td class="px-6 py-4">Laptop PC</td>
-            <td class="px-6 py-4">R1999</td>
-            <td class="px-6 py-4 flex space-x-2">
-                <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
-                    <i class="fas fa-edit mr-2 fa-xs"></i>Edit
-                </a>
-                <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
-                    <i class="fas fa-trash-alt fa-xs mr-2"></i>Delete
-                </a>
-            </td>
-        </tr>
-        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Magic Mouse 2
-            </th>
-            <td class="px-6 py-4">Black</td>
-            <td class="px-6 py-4">Accessories</td>
-            <td class="px-6 py-4">R199</td>
-            <td class="px-6 py-4 flex space-x-2">
-                <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
-                    <i class="fas fa-edit mr-2 fa-xs"></i>Edit
-                </a>
-                <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
-                    <i class="fas fa-trash-alt fa-xs mr-2"></i>Delete
-                </a>
-            </td>
-        </tr>
-        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Google Pixel Phone
-            </th>
-            <td class="px-6 py-4">Gray</td>
-            <td class="px-6 py-4">Phone</td>
-            <td class="px-6 py-4">R799</td>
-            <td class="px-6 py-4 flex space-x-2">
-                <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
-                    <i class="fas fa-edit mr-2 fa-xs"></i>Edit
-                </a>
-                <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
-                    <i class="fas fa-trash-alt fa-xs mr-2"></i>Delete
-                </a>
-            </td>
-        </tr>
-        <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Apple Watch 5
-            </th>
-            <td class="px-6 py-4">Red</td>
-            <td class="px-6 py-4">Wearables</td>
-            <td class="px-6 py-4">$999</td>
-            <td class="px-6 py-4 flex space-x-2">
-                <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
-                    <i class="fas fa-edit mr-2 fa-xs"></i>Edit
-                </a>
-                <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
-                    <i class="fas fa-trash-alt fa-xs mr-2"></i>Delete
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500">
+        <thead class="text-xs text-gray-700 uppercase">
+            <tr>
+                <th scope="col" class="px-6 py-3">Service Name</th>
+                <th scope="col" class="px-6 py-3">Client Name</th>
+                <th scope="col" class="px-6 py-3">Event Date</th>
+                <th scope="col" class="px-6 py-3">Status</th>
+                <th scope="col" class="px-6 py-3">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Wedding Photography
+                </th>
+                <td class="px-6 py-4">Alice Johnson</td>
+                <td class="px-6 py-4">2024-09-12</td>
+                <td class="px-6 py-4">Confirmed</td>
+                <td class="px-6 py-4 flex space-x-2">
+                    <a href="#" class="font-medium text-green-600 hover:underline flex items-center">
+                        <i class="fas fa-check-circle mr-2 fa-xs"></i>Mark as Completed
+                    </a>
+                    <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
+                        <i class="fas fa-times-circle fa-xs mr-2"></i>Cancel
+                    </a>
+                </td>
+            </tr>
+            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Floral Decorations
+                </th>
+                <td class="px-6 py-4">Mark Lee</td>
+                <td class="px-6 py-4">2024-10-05</td>
+                <td class="px-6 py-4">Pending</td>
+                <td class="px-6 py-4 flex space-x-2">
+                    <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
+                        <i class="fas fa-edit mr-2 fa-xs"></i>Update Status
+                    </a>
+                    <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
+                        <i class="fas fa-times-circle fa-xs mr-2"></i>Cancel
+                    </a>
+                </td>
+            </tr>
+            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Catering Service
+                </th>
+                <td class="px-6 py-4">Emily Davis</td>
+                <td class="px-6 py-4">2024-08-22</td>
+                <td class="px-6 py-4">In Progress</td>
+                <td class="px-6 py-4 flex space-x-2">
+                    <a href="#" class="font-medium text-green-600 hover:underline flex items-center">
+                        <i class="fas fa-check-circle mr-2 fa-xs"></i>Mark as Completed
+                    </a>
+                    <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
+                        <i class="fas fa-times-circle fa-xs mr-2"></i>Cancel
+                    </a>
+                </td>
+            </tr>
+            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    DJ Service
+                </th>
+                <td class="px-6 py-4">Michael Brown</td>
+                <td class="px-6 py-4">2024-11-30</td>
+                <td class="px-6 py-4">Pending</td>
+                <td class="px-6 py-4 flex space-x-2">
+                    <a href="#" class="font-medium text-blue-600 hover:underline flex items-center">
+                        <i class="fas fa-edit mr-2 fa-xs"></i>Update Status
+                    </a>
+                    <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
+                        <i class="fas fa-times-circle fa-xs mr-2"></i>Cancel
+                    </a>
+                </td>
+            </tr>
+            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Wedding Cake
+                </th>
+                <td class="px-6 py-4">Sarah Wilson</td>
+                <td class="px-6 py-4">2024-12-15</td>
+                <td class="px-6 py-4">Confirmed</td>
+                <td class="px-6 py-4 flex space-x-2">
+                    <a href="#" class="font-medium text-green-600 hover:underline flex items-center">
+                        <i class="fas fa-check-circle mr-2 fa-xs"></i>Mark as Completed
+                    </a>
+                    <a href="#" class="font-medium text-red-600 hover:underline flex items-center">
+                        <i class="fas fa-times-circle fa-xs mr-2"></i>Cancel
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+
 
       </div>
     </div>
